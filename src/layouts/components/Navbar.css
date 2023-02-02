@@ -1,0 +1,97 @@
+.navbar {
+  background-color: var(--dark);
+  padding: 1rem 2rem;
+  color: var(--light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  color: var(--secondary);
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.navbar .categories .categories-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .categories .categories-list .category .link {
+  color: var(--light);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar .categories .categories-list .category .link:hover {
+  color: var(--secondary);
+}
+
+.navbar .login {
+  background-color: var(--secondary);
+  color: var(--dark);
+}
+
+.navbar .login:hover {
+  background-color: transparent;
+  border: 2px solid var(--secondary);
+  color: var(--light);
+}
+
+.navbar .profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar .profile .wishlist-cart {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .profile .wishlist-cart .link {
+  color: var(--light);
+  font-size: 1.25rem;
+}
+
+.navbar .profile .wishlist-cart .link:hover {
+  color: var(--secondary);
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .navbar .left {
+    gap: 0;
+  }
+  .navbar .categories .categories-list {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0.7rem 1.2rem;
+  }
+
+  .navbar .logo {
+    font-size: 1.3rem;
+  }
+
+  .navbar .profile .wishlist-cart {
+    gap: 0.5rem;
+  }
+}

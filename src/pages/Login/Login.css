@@ -1,0 +1,43 @@
+.login .title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--dark);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login-form-wrapper {
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 0.25rem;
+    color: var(--dark);
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-form-wrapper .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-form-wrapper .input-group .icon {
+    color: var(--primary);
+}
+
+.login-form-wrapper .input-group label {
+    font-weight: bold;
+}
+
+.login .login-button {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.login .login-button:hover {
+    background-color: var(--primary-dark);
+}

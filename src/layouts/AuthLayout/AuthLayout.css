@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-light);
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper .logo {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 3rem;
+}
